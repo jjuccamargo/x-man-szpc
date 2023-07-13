@@ -1,0 +1,45 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .cabecalho .logo {
+      max-width: 190px;
+    }
+  
+    .selecao-de-personagens {
+      flex-direction: column;
+      max-width: 430px;
+      margin: 0 auto;
+    }
+  
+    .selecao-de-personagem .personagens {
+      margin-top: 37px;
+    }
+  
+    .selecao-de-personagem .personagem .titulo {
+      font-size: 15px;
+    }
+  
+    .selecao-de-personagem .lista-de-personagens {
+      gap: 9px;
+    }
+  
+    .selecao-de-personagens .personagem img {
+      width: 80px;
+      height: auto;
+    }
+  
+    .personagem-selecionado .personagem-grande {
+      width: 350px;
+      height: 350px;
+    }
+  
+    .personagem-selecionado .descricao-personagem {
+      width: 80%;
+      font-size: 16px;
+      margin: 20px auto; 
+    }
+  }
+  
+  /* Estilos para telas maiores */
+  @media (min-width: 769px) {
+    /* Defina os estilos para a versão do site em computador aqui */
+  }
